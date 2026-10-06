@@ -1,0 +1,44 @@
+# Environment variables / secrets
+.env
+backend/.env
+frontend/.env
+*.env
+
+# Python
+venv/
+backend/venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Node
+node_modules/
+frontend/node_modules/
+
+# Build files
+dist/
+frontend/dist/
+
+# User uploaded documents
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Local vector data
+backend/vector_store/*
+!backend/vector_store/.gitkeep
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# IDE
+.vscode/
+.idea/
+
+# Operating system
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

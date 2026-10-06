@@ -1,0 +1,1 @@
+DocMind demo content can be copied into a DOCX/PDF for testing. Project Phoenix starts on 10 January 2027. The owner is Example Systems. The first review deadline is 31 January 2027. Required deliverables are an architecture note and test report.

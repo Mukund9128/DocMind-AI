@@ -1,0 +1,2 @@
+# RAG Explanation
+RAG means Retrieval-Augmented Generation. DocMind splits extracted document text into overlapping chunks. At question time, embeddings estimate semantic relevance, top chunks become controlled context, and the LLM is instructed to answer only from that context. This reduces unsupported answers and lets the UI show document/page sources. The current implementation computes embeddings at retrieval time for simplicity; persistent FAISS/Chroma indexing is the recommended production evolution.
